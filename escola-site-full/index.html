@@ -1,0 +1,518 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/img/Camera_Icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <title>HDR WebSite </title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <!--~~~~~~~~~~~~~~~ Header ~~~~~~~~~~~~~~~-->
+   <header id="navbar" class="bg-gray-800 fixed w-full top-0 left-0 z-50">
+    <nav class="container flex items-center justify-between h-16 sm:h-20"> <div class="font-Lobster sm:text-2xl">Escola PRO</div> <div id="nav-menu" class="absolute top-0 left-[-100%] min-h-[80vh] w-full bg-gray-900
+        backdrop-blur-sm flex items-center justify-center duration-300 overflow-hidden lg:static lg:min-h-fit lg:bg-transparent lg:w-auto">
+
+            <ul class="flex flex-col items-center gap-8 lg:flex-row">
+                <li>
+                    <a href="#home" class="nav-link active:">Home</a>
+                </li>
+
+                <li>
+                    <a href="#resources" class="nav-link">Recursos</a> </li>
+
+                <li>
+                    <a href="#Beneficios" class="nav-link">Benefícios</a> </li>
+
+                 <li>
+                    <a href="#sistema" class="nav-link">Sistema</a> </li>
+
+               <!-- <li>
+                    <a href="#mirrors" class="nav-link">Avaliações</a>
+                </li> -->
+
+                <li>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+          
+        </div>
+
+        <div class="text-xl sm:text-3xl cursor-pointer z-50 lg:hidden">
+            <i class="ri-menu-4-line" id="hamburger"></i>
+        </div>
+
+        
+    </nav>
+</header>
+<main>
+    <section id="home" class="relative pt-32 pb-20"> 
+      <div class="container"> 
+        <div class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+
+            </div>
+
+            <div class="w-64 h-64 bg-green-700 rounded-full blur-3xl -z-10 opacity-40 absolute right-0 bottom-0">
+
+            </div>
+
+            <div class="flex flex-col items-center gap-5 lg:flex-row ite">
+                <div class="home__data w-full space-y-5 lg:w-1/2">
+                    <h1>Bem-vindo(a) a Escola PRO, um projeto que revoluciona a
+                        <br><span class="text-sky-500">administração nas escolas</span> </h1>
+
+                    <p class="text-slate-300 font-Lobster">
+                        Aqui você encontra todas as ferramentas necessárias para gerenciar suas atividades escolares de forma eficiente e prática.
+                    </p>
+
+                    <div class="flex flex-col gap-2 sm:flex-row md:gap-4 lg:pt-5 xl:pt-10">
+                        <a href="./public/register.php" class="btn flex items-center justify-center gap-2">
+                            <span>Cadastrar</span>
+                            <i class="ri-ball-pen-line"></i>
+                        </a>
+                        
+                            
+                            <a href="./public/index.php" class="btn btn_outline flex items-center justify-center gap-2">
+                                <span>Entrar</span>
+                               <i class="ri-quill-pen-fill"></i>
+                            </a>
+
+                            <p class="text-xs font-Lobster text-slate-300"></p>
+
+                            <div class="flex items-center gap-5 text-lg lg:pt-10">
+                                <i class="ri-facebook-fill text-slate-300 hover:text-sky-300 duration-300 cursor-pointer"></i>
+                                <i class="ri-twitter-x-line  text-slate-300 hover:text-sky-300 duration-300 cursor-pointer text-base"></i>
+                                <i class="ri-instagram-line  text-slate-300 hover:text-sky-300 duration-300 cursor-pointer"></i>
+                                <i class="ri-linkedin-fill  text-slate-300 hover:text-sky-300 duration-300 cursor-pointer"></i>
+                            </div>
+                    </div>
+                </div>
+
+                <div class="w-full relative  lg:w-1/2">
+                        <img src="" class="home__image">
+
+                        <!-- image-home -->
+              
+                        <div class="absolute -top-10 right-0 opacity-30 animate-movingY xl:top-5">
+                            <i class="ri-brush-fill text-6xl text-sky-500"></i>
+                        </div>
+                       
+
+                         <!-- image-home -->
+
+                        <div class="absolute bottom-0 left-0 opacity-30 xl:bottom-12 animate-rotating">
+                            <i class="ri-brush-4-fill text-6xl text-sky-500"></i>
+                        </div>
+                       
+
+                         <!-- image-home -->
+
+                        <div class="absolute -top-8 -left-5 opacity-30 lg:block animate-scalingUp">
+                           <i class="ri-vidicon-line text-6xl text-sky-500"></i>
+                            
+                        </div>
+                     </div>
+            </div>
+        </div>
+    </section>
+</main>
+        <!--~~~~~~~~~~~~~~~ Services ~~~~~~~~~~~~~~~-->
+        <section id="resources">
+        <div class="bg-white text-gray-900 py-20">
+          <div class="container w-full grid grid-cols-1 gap-8 md:grip-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+
+            <!-- card 1 -->
+          
+              <div  class=" service__card border border-l-gray-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300 space-y-5  w-full">
+                
+            <div class="flex items-center gap-5">
+              <i class="ri-lightbulb-flash-line text-3xl md:text-4xl xl:text-5xl "></i>
+              <p class="md:text-lg font-bold text-sky-500">Recursos<br>
+              
+              
+               
+                
+              </p>
+            </div>
+             <p class="font-Lobster">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sequi eligendi, dicta aut voluptatem facere debitis nam adipisci labore eum nisi totam quisquam deserunt? Omnis sapiente eius earum et iusto!
+             </p>
+              
+          </div>
+       
+
+            <!-- card 2 -->
+          
+             <div class="service__card border border-l-gray-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300">
+            <div class="flex items-center gap-5">
+              <i class="ri-lightbulb-line text-3xl md:text-4xl xl:text-5xl text-sky-500"></i>
+              <p class="md:text-lg font-bold text-sky-500">Expansão<br>
+
+              </p>
+            </div>
+             <p class="font-Lobster">
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, eos laudantium aut eius saepe iusto natus illo velit ipsa veritatis. At amet ut sit vel? Vero aliquid distinctio inventore ullam.
+             </p>
+          </div>
+          </a>
+
+          
+            <!-- card 3 -->
+             <div class="service__card border border-l-gray-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300">
+            <div class="flex items-center gap-5">
+              <i class="ri-sun-fill text-3xl md:text-4xl xl:text-5xl text-sky-500"></i>
+              <p class="md:text-lg font-bold text-sky-500">Atualizações<br>
+             
+              </p>
+            </div>
+             <p class="font-Lobster">
+             A iluminação natural é a arte e a ciência de permitir a entrada de luz natural edifícios. Envolve a coordenação de diferentes disciplinas: arquitetura, engenharia, ciência da construção, planejamento entre muitos outros.
+             </p>
+          </div>
+          </a>
+
+          
+            <!-- card 4 -->
+              
+             <div class="service__card border border-l-gray-900 p-5 cursor-pointer rounded-md hover:shadow-2xl hover:-translate-y-1 duration-300">
+            <div class="flex items-center gap-5">
+              <i class="ri-book-fill text-3xl md:text-4xl xl:text-5xl"></i>
+              <p class="md:text-lg font-bold">Suporte<br>
+            
+              </p>
+            </div>
+             <p class="font-Lobster">
+              Informações sobre o material utilizado para esse estudo, com todas as citações e referência.
+             </p>
+          </div>
+              </a>
+        </section>
+          
+
+          
+
+          
+
+        </div>
+        </div>
+
+        <!--~~~~~~~~~~~~~~~ About us ~~~~~~~~~~~~~~~-->
+        <section id="Beneficios" class="relative overflow-hidden bg-gray-950">
+
+
+            <div class="about__top flex flex-col items-center gap-3 text-center mb-10 md:mb-20">
+              <h2 class="title">Benefícios</h2>
+              <p class="max-w-2x1">Todos os benefícios e soluções...</p>
+            </div>
+
+            <div class="container space-y-10">
+              <!-- item 1-->
+               <div class="flex flex-col items-center lg:flex-row gap-5">
+                <!-- image -->
+                 <div class="about__item__1-img w-full lg:w-1/2">
+                  <img src="assets/images/photo1.jpg" alt="" srcset="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto border-b-slate-200 ">
+                 </div>
+
+                 <!-- conteudo-->
+                  <div class="about__item__1-content w-full lg:w-1/2">
+                    <div class="space-y-5">
+                      <h3>
+                      <span class="text-sky-500 font-Lobster">Planilhas de Controle</span>  
+                        <br>
+                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae distinctio officia laudantium obcaecati nisi. Voluptas dignissimos sequi porro! Fugiat animi quas corporis assumenda commodi excepturi earum, reiciendis consequatur! Est, similique!
+                      </h3>
+                      <p class="text-slate-3300">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure vero rerum placeat debitis facere distinctio reprehenderit blanditiis, quod odit eaque fugiat sunt! Mollitia, facilis unde tempora inventore quidem animi ratione!
+                    </div>
+
+                  </div>
+               </div>
+
+
+                 <!-- item 2-->
+               <div class="flex flex-col items-center lg:flex-row-reverse">
+                <!-- image -->
+                 <div class="about__item__2-img w-full lg:w-1/2">
+                  <img src="assets/images/photo2.jpg" alt="" srcset="" class="w-full sm:w-2/3 lg:w-full xl:w-2/3 mx-auto">
+                 </div>
+
+                 <!-- conteudo-->
+                  <div class="about__item__2-content w-full lg:w-1/2">
+                    <div class="space-y-5">
+                      <h3>
+                      <span class="text-sky-500 font-Lobster">Controle de Status</span> 
+                      <br>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt assumenda inventore dolore. Porro natus eos molestias voluptatum. Facilis, saepe totam reiciendis non est amet unde aliquid praesentium, qui deserunt recusandae.
+                      </h3>
+                      <p class="text-slate-3300 ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente aliquam quae veritatis exercitationem in nobis saepe hic molestiae. Corrupti molestiae animi vel, dolore quasi fuga veniam fugit illo rem explicabo!
+                      </p>
+                    </div>
+
+                  </div>
+               </div>
+
+               
+            </div>
+        </section>
+
+        <!--~~~~~~~~~~~~~~~ Popular ~~~~~~~~~~~~~~~-->
+       <section id="sistema" >
+    <div class="popular__top flex flex-col items-center gap-3 text-center mb-40">
+        <h2 class="title">Sobre o Sistema</h2>
+        <p class="max-w-2x1">Entenda mais sobre a Escola Pro...</p>
+    </div>
+<div class="container w-full grid grid-cols-1 gap-x-8 gap-y-36 md:grid-cols-2 lg:grid-cols-4">
+        
+        <div class="popular__card bg-gray-900 p-10 pt-24 rounded-md relative flex flex-col items-center h-full">
+            <img src="./assets/images/0a22ec8e4eaa75edf99669d15e1a3ee2-removebg-preview.png" alt="" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+            <h2 class="text-xl font-bold">Como Funciona?</h2>
+
+            <a href="./webhdr/introducao.html"><div class="flex items-center justify-center mt-auto">
+                <button class="bg-sky-500 px-2 py-1 rounded-sm text-xl text-center items-center">
+                    <i class="ri-camera-lens-line"></i>
+                </button>
+            </div></a>
+        </div>
+
+        <div class="popular__card bg-gray-900 p-10 pt-24 rounded-md relative flex flex-col items-center h-full">
+            <img src="./assets/images/28bd9b7d986501fd6057a1db852e1edf-removebg-preview.png" alt="" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+            <h2 class="text-xl font-bold text-center">Planilhas</h2>
+
+             <a href="./webhdr/hdr.html"><div class="flex items-center justify-center mt-auto">
+                <button class="bg-sky-500 px-2 py-1 rounded-sm text-xl">
+                    <i class="ri-camera-lens-line"></i>
+                </button>
+            </div></a>
+        </div>
+
+        <div class="popular__card bg-gray-900 p-10 pt-24 rounded-md relative flex flex-col items-center h-full">
+            <img src="./assets/images/5aa736f95b4fe1dc29f955226d03a30f-removebg-preview.png" alt="" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+            <h2 class="text-xl font-bold">Automações</h2>
+
+            <a href="./webhdr/camera.html"><div class="flex items-center justify-center mt-auto">
+                <button class="bg-sky-500 px-2 py-1 rounded-sm text-xl">
+                    <i class="ri-camera-lens-line"></i>
+                </button>
+            </div></a>
+        </div>
+
+        <div class="popular__card bg-gray-900 p-10 pt-24 rounded-md relative flex flex-col items-center h-full">
+            <img src="./assets/images/a338bc866cd7a94af566362a7d3ba31b-removebg-preview.png" alt="" class="w-56 absolute -top-5 left-1/2 transform -translate-x-1/2 -translate-y-1/2 duration-500">
+            <h2 class="text-xl font-bold">Gestão</h2>
+
+            <a href="./webhdr/Roll-Your-Own.html"><div class="flex items-center justify-center mt-auto">
+                <button class="bg-sky-500 px-2 py-1 rounded-sm text-xl">
+                    <i class="ri-camera-lens-line"></i>
+                </button>
+            </div></a>
+        </div>
+
+       
+
+      
+    </div>
+</section>
+        <!--~~~~~~~~~~~~~~~ Review ~~~~~~~~~~~~~~~
+         <section id="mirrors" class="relative mb-20 md:mb-28 overflow-hidden">
+
+<div class="review__leaf absolute -top-8 -left-12 opacity-50">
+  <img src="./assets/img/leaf-4.png" class="w-40 md:w-52 xl:w-64">
+</div>
+
+            <div class="review__top flex flex-col items-center gap-3 text-center mb-40">
+              <h2 class="title">Avaliações</h2>
+              <p class="max-w-2x1">Entenda o que estão dizendo sobre essa ferramenta...</p>
+            </div>
+
+            <div class="review__swiper container">
+              <div class=" swiper py-12">
+                <ul class="swiper-wrapper">
+                  <li class="swiper-slide">  
+                    <div class="flex flex-col gap-5 bg-gray-700 rounded-md p-6">
+                      <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                      <div class="flex items-center">
+                        <img src="./assets/img/review" alt="" class="w-12 h-12 rounded-full">
+                      </div>
+                      <div class="ml-2">
+                        <p class="text-sky-500 uppercase">John doe</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </li>
+
+                 <li class="swiper-slide">  
+                    <div class="flex flex-col gap-5 bg-gray-700 rounded-md p-6">
+                      <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                      <div class="flex items-center">
+                        <img src="assets/img/review-1.jpg" alt="" class="w-12 h-12 rounded-full">
+                      </div>
+                      <div class="ml-2">
+                        <p class="text-sky-500 uppercase">John doe</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </li>
+
+                 <li class="swiper-slide">  
+                    <div class="flex flex-col gap-5 bg-gray-700 rounded-md p-6">
+                      <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                      <div class="flex items-center">
+                        <img src="assets/img/review-2.jpg" alt="" class="w-12 h-12 rounded-full">
+                      </div>
+                      <div class="ml-2">
+                        <p class="text-sky-500 uppercase">John doe</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </li>
+
+                 <li class="swiper-slide">  
+                    <div class="flex flex-col gap-5 bg-gray-700  rounded-md p-6">
+                      <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                      <div class="flex items-center">
+                        <img src="assets/img/review-3.jpg" alt="" class="w-12 h-12 rounded-full">
+                      </div>
+                      <div class="ml-2">
+                        <p class="text-sky-500 uppercase">John doe</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </li>
+
+                 <li class="swiper-slide">  
+                    <div class="flex flex-col gap-5 bg-gray-700  rounded-md p-6">
+                      <p class="font-Lobster">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique culpa ut amet voluptas asperiores alias sed consequatur.</p>
+                      <div class="flex items-center">
+                        <img src="assets/img/review-4.jpg" alt="" class="w-12 h-12 rounded-full">
+                      </div>
+                      <div class="ml-2">
+                        <p class="text-sky-500 uppercase">John doe</p>
+                        <p>Designer</p>
+                      </div>
+                      <i class="ri-double-quotes-r text-4xl ml-auto"></i>
+                  </div>
+                </li>
+
+                </ul>
+
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+        </section>
+        -->
+    </main>
+
+    <!--~~~~~~~~~~~~~~~ Footer ~~~~~~~~~~~~~~~-->
+    <footer id="contact" class="bg-white text-gray-950 pt-20 pb-10 md:pt-28 relative">
+        <!-- newsletter 
+        <div class="container text-white absolute top-0 right-0 left-0 -translate-y-1/2">
+          <div class="bg-gray-700  px-10 pt-5 pb-10 space-y-5 rounded-md">
+            <h3><span class="text-sky-500">Envie nos um</span> email com o seu feedback</h3>
+
+          <div class="flex flex-col md:flex-row gap-1">
+            <input type="email" placeholder="Email " class="w-full px-5 py-3 text-gray-900 rounded-md outline-none">
+            <button class="flex items-center justify-center gap-1 bg-gray-950 px-5 py-3 rounded-md hover:opacity-80 duration-300">
+              <span>Enviar</span>
+              <i class="ri-send-plane-2-fill"></i>
+            </button>
+          </div>
+          </div>
+        </div>
+        -->
+        <!-- social icon -->
+
+        <div class="container mt-16 mb-10">
+          <div class="border-b border-gray-500 relative">
+            <div class="absolute top-0 transform -translate-y-1/2 left-0 right-0 max-w-36 mx-auto">
+              <div class="bg-sky-100 text-lg text-center space-x-2">
+                <i class="ri-facebook-fill hover:text-sky-500 duration-300 cursor-pointer"></i>
+                <i class="ri-twitter-x-line hover:text-sky-500 duration-300 cursor-pointer text-base"></i>
+                <i class="ri-instagram-line hover:text-sky-500 duration-300 cursor-pointer"></i>
+                <i class="ri-linkedin-fill hover:text-sky-500 duration-300 cursor-pointer"></i>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- content -->
+<div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 text-center md:text-start">
+  <!-- item1 -->
+   <div>
+    <div class="text-7xl text-gray-700 text-center inline-block">
+      
+<i class="ri-camera-3-fill"></i>
+<p class="font-Lobster text-xl sm:text-2xl">Escola PRO</p>
+    </div>
+   </div>
+
+ <!--ITEM 1-->
+
+   <DIV>
+    <p class="mb-5 font-bold text-xl">Popular Services</p>
+
+    <div class="flex flex-col gap-1">
+      <a href="#">Teste1</a>
+        <a href="#">Teste1</a>
+          <a href="#">Teste1</a>
+            <a href="#">Teste1</a>
+              <a href="#">Teste1</a>
+    </div>
+   </DIV>
+
+   <!--ITEM 2-->
+
+   <DIV>
+    <p class="mb-5 font-bold text-xl">Popular Services</p>
+
+    <div class="flex flex-col gap-1">
+      <a href="#">Teste1</a>
+        <a href="#">Teste1</a>
+          <a href="#">Teste1</a>
+            <a href="#">Teste1</a>
+              <a href="#">Teste1</a>
+    </div>
+   </DIV>
+
+   <!--ITEM 3-->
+
+   <DIV>
+    <p class="mb-5 font-bold text-xl">
+Contact Us</p>
+
+    <div class="flex flex-col gap-1">
+      <a href="tel: 11984361276">11984361276</a>
+        <a href="mailto: escolapro@gmail.com">Escola PRO@gmail.com</a>
+        <br>
+        <p> 1234 Tailwind Ave, CSS City, Webland 56789, USA</p>
+    </div>
+   </DIV>
+</div>
+    </footer>
+
+    <!--~~~~~~~~~~~~~~~ Scroll Up ~~~~~~~~~~~~~~~-->
+    <a href="#" class="fixed right-4 -bottom-1/2 bg-sky-500 shadow-sm inline-block px-33 py-1 md:px-4 md:py-2 rounded-md text-lg z-50 hover:-translate-y-1 duration-300" id="scroll-up">
+      <i class="ri-arrow-up-line"></i>
+    </a>
+
+
+
+    <!--~~~~~~~~~~ SCROLLREVEAL ~~~~~~~~~~-->
+
+    <!--~~~~~~~~~~ mainjs ~~~~~~~~~~-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+        <script src="main.js"></script>
+    
+</body>
+
+</html>
