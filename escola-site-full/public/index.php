@@ -28,6 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   }
 }
 ?>
+ 
 <div class="card">
   <h2>Entrar</h2>
   <?php if (!empty($_GET['msg'])): ?><div class="notice"><?=htmlspecialchars($_GET['msg'])?></div><?php endif; ?>
@@ -43,4 +44,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
   </form>
 </div>
-</main></body></html>
+</main>
+</body>
+</html>

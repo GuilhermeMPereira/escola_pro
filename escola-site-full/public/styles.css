@@ -13,6 +13,11 @@
   box-sizing: border-box
 }
 
+.dashboard-page{
+  background-color: var(--bg);
+  min-height: 100vh;
+}
+
 body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial;
@@ -347,4 +352,53 @@ body {
   .topbar .container {
     flex-direction: row; 
   }
+}
+/* --- Wrapper Responsivo para Tabelas --- */
+.table-responsive-wrapper {
+  width: 100%;
+  overflow-x: auto; /* Mágica! Adiciona scroll horizontal SÓ na tabela */
+  border: 1px solid #e5e7eb; /* Borda sutil em volta da tabela */
+  border-radius: 8px;
+}
+
+/* --- Card Branco (para tabelas) --- */
+.card-white {
+  background: #ffffff;
+  backdrop-filter: none;
+  border-color: #e5e7eb;
+  color: #1f2937; /* Cor de texto escura padrão */
+}
+
+/* * Ajustes de cor para elementos DENTRO do card branco,
+ * para que fiquem escuros e legíveis.
+ */
+.card-white h3 {
+  color: #111827;
+}
+
+.card-white .table {
+  color: #374151;
+  /* Remove a borda do wrapper se a tabela já a tem */
+  border: none;
+}
+
+.card-white .table th,
+.card-white .table td {
+  border-bottom: 1px solid #e5e7eb; /* Borda escura (clara) */
+  color: #374151;
+}
+
+/* Faz os cabeçalhos da tabela terem texto mais escuro */
+.card-white .table th {
+  color: #111827;
+  background-color: #f9fafb; /* Fundo levemente cinza p/ cabeçalho */
+}
+
+/* Remove a borda da última linha da tabela */
+.card-white .table tr:last-child td {
+  border-bottom: none;
+}
+
+.card-white .muted {
+  color: #6b7280; /* Cor escura para texto "muted" */
 }
